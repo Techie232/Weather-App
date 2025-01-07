@@ -20,6 +20,8 @@ function App() {
       name: "",
    })
 
+   let apiKEY = "YOUR_API_KEY"
+
    const wetherAPI = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKEY}`;
 
    const searchForCity = async () => {
