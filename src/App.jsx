@@ -20,7 +20,6 @@ function App() {
       name: "",
    })
 
-   const apiKEY = "7206b2d31cd5c3d4f7524746a205a556"
    const wetherAPI = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKEY}`;
 
    const searchForCity = async () => {
@@ -83,7 +82,6 @@ function App() {
          searchForCity();
       }
    }
-
 
    return (
       <div className='w-screen h-screen bg-cyan-500 text-center'>
